@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    font-family: 'Red Rose', cursive;
+}
+
+.container{
+    padding: 34px;
+    max-width: 80%;
+    margin: auto;
+    
+   
+}
+
+.container h1,p{
+    text-align: center;
+    
+}
+h1{
+    font-size: 30px;
+    font-family: 'Recursive', sans-serif;
+    
+}
+p{
+    font-size: 20px;
+
+}
+input,textarea{
+    width: 80%;
+    margin:11px auto;
+    padding:7px;
+    font-size:18px;
+    border: 2px solid black;
+    border-radius: 6px;
+    outline: none;
+   
+
+}
+ 
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.btn{
+    font-size:15px;
+    color:white;
+    background-color:purple;
+    padding:8px 12px;
+    border:2px solid white;
+    border-radius:13px;
+    cursor:pointer;
+
+}
+
+.submitmsg{
+    color: green;
+    font-size: 18px;
+}
+
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity:0.6;
+}

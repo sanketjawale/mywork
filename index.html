@@ -1,46 +1,30 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta id="_moz_html_fragment">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Travel Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Rose&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Recursive&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body style="background-image:url(background4.jpg)">
-<div style="text-align: center;"><br>
-<br>
-<br>
-<br>
-<big><big>HOSPITAL&nbsp; MANAGEMENT SYSTEM<br>
-<br>
-<br>
-</big></big>
-<form method="post" action="login.php">
-<center>
-<table width="30%">
-<tbody>
-<tr>
-<td style="text-align: left;">USERNAME<br>
-</td>
-<td><input name="username" type="text"><br>
-</td>
-</tr>
-<tr>
-<td style="text-align: left;">PASSWORD<br>
-</td>
-<td><input name="password" type="password"><br>
-</td>
-</tr>
-</tbody>
-</table>
-<br>
-<br>
-<input value="LOGIN" name="submit" type="submit"><br>
-</form>
-<br>
-<form method="post" action="register.html">
-<input value="New User ?" name="newuser" type="submit"><br>
-</center>
-</form>
-<big><big><br>
-</big></big></div>
+
+<body>
+    <img class="bg" src="bg.jpg" alt="SAE">
+    <div class="container">
+        <h1>Welcome to the SIT Travel form</h1>
+        <p>Enter detail and submit this form to confirm your participation in the trip</p>
+        <p class="submitmsg">Thank you for submitting your form.We are happy to see you joining us for the US trip.</p>
+        <form action="index.php" method="post">
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+            <input type="text" name="age" id="age" placeholder="Enter your Age">
+            <input type="text" name="gender" id="gender" placeholder="Enter your gender">
+            <input type="email" name="email" id="email" placeholder="Enter your email">
+            <input type="phone" name="phone" id="phone" placeholder="Enter your phone">
+            <textarea name="desc" id="desc" cols="30" rows="10" placeholder="Enter any other information here"></textarea>
+            <button class="btn">Submit</button> 
+        </form>
+    </div>
+    <script src="index.js"></script>
 </body>
 </html>
-
-
